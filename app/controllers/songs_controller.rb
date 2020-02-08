@@ -3,8 +3,7 @@ class SongsController < ApplicationController
   end
 
   def show
-    @songs = Song.all
-    render :show
+    @song = Song.find(params[:id])
   end
 
   def new
