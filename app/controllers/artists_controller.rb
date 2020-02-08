@@ -3,7 +3,6 @@ class ArtistsController < ApplicationController
   end
 
   def show
-    @songs = Artist.songs
     render :show
   end
 
