@@ -3,6 +3,7 @@ class ArtistsController < ApplicationController
   end
 
   def show
+    render :show
   end
 
   def new
