@@ -3,6 +3,8 @@ class SongsController < ApplicationController
   end
 
   def show
+    @songs = Song.all
+    render :show
   end
 
   def new
